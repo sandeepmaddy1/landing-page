@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+   font-family: "lato",sans-serif;
+}
+.img1{
+   background-image: url(love.jpg);
+   min-height: 700px;
+  
+}
+.ptext{
+    position: relative;
+    top: 180px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    /* transition: 1s;
+    cursor: pointer; */
+    animation: ptext .7s infinite alternate linear;
+}
+.ptext:hover{
+    font-size: 50px;
+}
+.textbg1{
+    /* background-color: rgba(174, 190, 110,0.1); */
+    padding: 5px;
+}
+@keyframes ptext{
+    from{
+transform: scale(.7);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+.section-one{
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.1);
+}
+.htext{
+    font-size: 20px;
+    color: red;
+}
+.text{
+    font-size: 20px;
+}
+.img1, .img2, .img3{
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* copy marna start */
+.img2{
+background-image: url(nature.jpg);
+height: 700px;
+}
+.section-two{
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.textbg2{
+    background-color: rgb(66, 72, 181);
+}
+.img3{
+background-image: url(laptop.jpg);
+height: 700px;
+}
+.textbg3{
+    background-color: black
+}
